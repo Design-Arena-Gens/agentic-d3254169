@@ -1,0 +1,85 @@
+[
+  {
+    "id": "ord-1001",
+    "reference": "LKYA-1001",
+    "customerName": "Ravi Kumar",
+    "customerPhone": "+91 98765 12345",
+    "address": "12 Residency Road, Bengaluru",
+    "cashOnDelivery": 1249,
+    "status": "assigned",
+    "assignedDriverId": "drv-01",
+    "promisedAt": "2024-07-03T17:00:00.000Z",
+    "notes": "Leave at reception if customer unavailable.",
+    "barcode": "LKYA1001CODE",
+    "timeline": [
+      {
+        "status": "pending",
+        "at": "2024-07-03T08:00:00.000Z",
+        "actor": "system"
+      },
+      {
+        "status": "assigned",
+        "at": "2024-07-03T09:15:00.000Z",
+        "actor": "manager-1"
+      }
+    ],
+    "cashCollected": 0
+  },
+  {
+    "id": "ord-1002",
+    "reference": "LKYA-1002",
+    "customerName": "Anita Sharma",
+    "customerPhone": "+91 93456 89765",
+    "address": "44, Sarjapur Main Road, Bengaluru",
+    "cashOnDelivery": 869,
+    "status": "in-transit",
+    "assignedDriverId": "drv-02",
+    "promisedAt": "2024-07-03T19:30:00.000Z",
+    "notes": "Call on arrival.",
+    "barcode": "LKYA1002CODE",
+    "timeline": [
+      {
+        "status": "pending",
+        "at": "2024-07-03T07:45:00.000Z",
+        "actor": "system"
+      },
+      {
+        "status": "assigned",
+        "at": "2024-07-03T08:30:00.000Z",
+        "actor": "manager-1"
+      },
+      {
+        "status": "picked-up",
+        "at": "2024-07-03T10:05:00.000Z",
+        "actor": "drv-02"
+      },
+      {
+        "status": "in-transit",
+        "at": "2024-07-03T10:20:00.000Z",
+        "actor": "drv-02"
+      }
+    ],
+    "cashCollected": 0
+  },
+  {
+    "id": "ord-1003",
+    "reference": "LKYA-1003",
+    "customerName": "Lakshmi Narayan",
+    "customerPhone": "+91 99876 34521",
+    "address": "HSR Layout Sector 2, Bengaluru",
+    "cashOnDelivery": 2230,
+    "status": "pending",
+    "assignedDriverId": null,
+    "promisedAt": "2024-07-03T21:30:00.000Z",
+    "notes": "Handle with care.",
+    "barcode": "LKYA1003CODE",
+    "timeline": [
+      {
+        "status": "pending",
+        "at": "2024-07-03T08:15:00.000Z",
+        "actor": "system"
+      }
+    ],
+    "cashCollected": 0
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "asg-001",
+    "orderId": "ord-1001",
+    "driverId": "drv-01",
+    "assignedBy": "manager-1",
+    "assignedAt": "2024-07-03T09:15:00.000Z",
+    "note": "Nearest driver to MG Road hub."
+  },
+  {
+    "id": "asg-002",
+    "orderId": "ord-1002",
+    "driverId": "drv-02",
+    "assignedBy": "manager-1",
+    "assignedAt": "2024-07-03T08:30:00.000Z",
+    "note": "Large parcel, needs Pulsar."
+  }
+]

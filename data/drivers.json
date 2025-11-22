@@ -1,0 +1,50 @@
+[
+  {
+    "id": "drv-01",
+    "name": "Sanjay Patel",
+    "phone": "+91 90001 22334",
+    "vehicle": "Honda Activa",
+    "licensePlate": "KA-01-AB-1122",
+    "currentOrderIds": ["ord-1001"],
+    "lastHeartbeat": "2024-07-03T10:40:00.000Z",
+    "location": {
+      "lat": 12.9716,
+      "lng": 77.5946
+    },
+    "etaReturningMinutes": 45,
+    "cashOnHand": 1249,
+    "status": "on-task"
+  },
+  {
+    "id": "drv-02",
+    "name": "Priya Deshpande",
+    "phone": "+91 90002 33445",
+    "vehicle": "Bajaj Pulsar",
+    "licensePlate": "KA-05-CD-4455",
+    "currentOrderIds": ["ord-1002"],
+    "lastHeartbeat": "2024-07-03T10:42:00.000Z",
+    "location": {
+      "lat": 12.9352,
+      "lng": 77.6245
+    },
+    "etaReturningMinutes": 30,
+    "cashOnHand": 869,
+    "status": "on-task"
+  },
+  {
+    "id": "drv-03",
+    "name": "Rahul Singh",
+    "phone": "+91 90003 77889",
+    "vehicle": "Tata Ace",
+    "licensePlate": "KA-03-EF-7788",
+    "currentOrderIds": [],
+    "lastHeartbeat": "2024-07-03T10:20:00.000Z",
+    "location": {
+      "lat": 12.9141,
+      "lng": 77.6387
+    },
+    "etaReturningMinutes": null,
+    "cashOnHand": 0,
+    "status": "available"
+  }
+]

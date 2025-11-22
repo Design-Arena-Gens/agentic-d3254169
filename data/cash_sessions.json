@@ -1,0 +1,30 @@
+[
+  {
+    "id": "cash-001",
+    "driverId": "drv-01",
+    "date": "2024-07-02",
+    "expectedAmount": 8420,
+    "declaredAmount": 8420,
+    "status": "verified",
+    "verifierId": "finance-1",
+    "verifierNote": "All invoices tallied."
+  },
+  {
+    "id": "cash-002",
+    "driverId": "drv-02",
+    "date": "2024-07-02",
+    "expectedAmount": 6230,
+    "declaredAmount": 6200,
+    "status": "discrepancy",
+    "verifierId": "finance-1",
+    "verifierNote": "Short by Rs. 30, request explanation."
+  },
+  {
+    "id": "cash-003",
+    "driverId": "drv-03",
+    "date": "2024-07-03",
+    "expectedAmount": 0,
+    "declaredAmount": 0,
+    "status": "pending"
+  }
+]
